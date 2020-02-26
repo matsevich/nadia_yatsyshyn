@@ -8,6 +8,9 @@ body {
 section .slider-box {
   width: 100%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 section .slider-box .slider {
   width: 100%;
@@ -15,7 +18,7 @@ section .slider-box .slider {
 section .slider-box .slider .slider__item {
   overflow: hidden;
   outline: none;
-  height: 530px;
+  height: 550px;
 }
 section .slider-box .slider .slider__item.title  {
   font-family: 'Simonetta', sans-serif;
@@ -24,6 +27,7 @@ section .slider-box .slider .slider__item.title  {
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
   flex-direction: column;
 }
 section .slider-box .slider .slider__item.title.sup {
