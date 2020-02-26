@@ -61,7 +61,7 @@ section .slider-box .slider .slider__item img.picture {
 }
 @media screen and ( max-width: 550px ) {
   .left-arr, .right-arr {
-    opacity: 0.100;
+    opacity: 0.060;
   }
   .left-arr:hover, .right-arr:hover {
     opacity: 1;
