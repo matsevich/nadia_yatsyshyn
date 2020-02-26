@@ -38,7 +38,6 @@ section .slider-box .slider .slider__item.title.sup {
 
 section .slider-box .slider .slider__item img.picture {
   margin: 0 auto;
-  width: 100%;
   height: 100%;
   border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -64,7 +63,16 @@ section .slider-box .slider .slider__item img.picture {
   .left-arr, .right-arr {
     opacity: 0.060;
   }
-  .left-arr:hover, .right-arr:hover {
+  .left-arr:hover, .right-arr:hover, .left-arr:active, .right-arr:active {
     opacity: 1;
+  }
+  section .slider-box .slider .slider__item {
+    width: 400px;
+  }
+  section .slider-box .slider .slider__item img.picture{
+    width: 100%;
+  }
+  section .slider-box .slider .slider__item.title.sup {
+    width: 215px;
   }
 }
